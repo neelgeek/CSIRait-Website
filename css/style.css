@@ -1,0 +1,367 @@
+#footer{
+    padding: 10px 20px;
+    background: #212121;
+    color: #999;
+}
+
+#contactus-head{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 3em;
+}
+#contactus-subtext{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 200;
+    font-size: 1.5em;
+}
+
+a.btn-banner {
+    border: 1px solid #cdcdcd;
+    padding: 15px 15px;
+    line-height: 0px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 22px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-top: 55px;
+}
+
+#navbar-text{
+    color:#fff;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 200;
+}
+
+.container-carousel
+{
+    padding: 0;
+}.carousel-inner > .item > img
+{
+    margin: 0 auto;
+}#map-text,
+.fa-stack
+{
+    margin-top: 30px;
+}.carousel-inner > .item
+{
+    background: #212121;
+}#myCarousel
+{
+    height: auto;
+}.carousel-control.left,
+.carousel-control.right
+{
+    background-image: none;
+}
+
+a.btn-banner i
+{
+    padding-left: 10px;
+}
+a.btn-banner:hover, a.btn-banner:focus
+{
+    background-color: #003399;
+    color: #fff;
+    border-color: #d93123;
+    display: inline-block;
+}
+
+section
+{
+  background:yellow;
+}
+.banner
+{
+  background:red;
+  min-height:200px;
+}
+.banner .row
+{
+  text-align:center;
+  margin-top:50px;
+}
+.banner h1
+{
+  color:white;
+}
+
+
+
+/***********************************************************************
+*  OPAQUE NAVBAR SECTION
+***********************************************************************/
+.opaque-navbar {
+    background-color: rgba(0,0,0,0);
+  /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
+    height: 60px;
+    border-bottom: 0px;
+    transition: background-color .5s ease 0s;
+}
+
+.opaque-navbar.opaque {
+    background-color: #003399;
+    height: 60px;
+    transition: background-color .5s ease 0s;
+}
+
+ul.dropdown-menu {
+    background-color: black;
+}
+
+
+@media (max-width: 992px) {
+  
+  .opaque-navbar {
+    background-color: black;
+    height: 60px;
+    transition: background-color .5s ease 0s;
+}
+
+}
+
+
+
+
+#contact{
+    padding: 130px 0px;
+    background: #333;
+}
+
+.section-padding
+{
+	padding: 40px 0px;
+}
+.pg-titl-bdr-btm
+{
+	width: 250px;
+	height: 5px;
+	background-color: #333;
+}
+
+.jumbotron
+{
+    background-color: transparent;
+    padding-top: 90px;
+    
+}
+
+#maintext{
+    
+    color:#fff;
+}
+
+.jumbotron p.big
+{
+    line-height: 21px;
+    border-width: 0px;
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 6px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #fff;
+    -webkit-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
+    -moz-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
+    -ms-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
+    filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
+    padding-top: 10px;
+}
+
+#intro-section-header{
+        font:'Roboto',sans-serif; font-weight: 800;
+}
+
+#intro-section-text{
+    font:'Roboto',sans-serif; font-weight: 400;
+    padding-bottom: 40px;
+
+}
+
+#banner
+{
+    background: url('https://prince2pm.files.wordpress.com/2011/07/technical.jpg') no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    padding-bottom: 90px;
+}
+
+.intro-holder{
+    padding: 40px;
+}
+.csi-logo{
+    height: 300px;
+    width: 300px;
+    margin-top: 30px;
+}
+
+.img-center{
+    display:block;
+    margin:auto;
+}
+
+#contact h1 {
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif; font-weight:800;
+    padding-bottom: 20px;
+}
+
+#feedback-header {
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif; font-weight:800;
+    padding-bottom: 20px;
+    text-align: right;
+}
+
+#intro-header{
+    padding-top:40px;
+    color: #003399;
+    font-family: 'Open Sans', sans-serif; font-weight:800;
+    padding-bottom: 20px;
+    font-size:36px;  
+    text-align: center;
+}
+
+
+
+#feedback-header-container{
+    margin-bottom: 50px;
+}
+
+.seperator {
+    width: 25%;
+    background: #003399;
+    height: 5px;
+}
+.seperator-feedback {
+    width: 25%;
+    background: #003399;
+    height: 5px;
+    float:right;
+}
+
+#contact h4 {
+    text-align: left;
+    color: #CCC;
+    margin-top: 40px;
+}
+
+#contact p {
+    text-align: left;
+    color: #AAA;
+    margin-top: 20px;
+}
+
+#contact-seperator {
+    margin: 5px auto 40px 2px;
+}
+
+#feedback-seperator {
+    margin: 5px auto 40px 2px;
+    text-align: right;
+}
+.con-glyp 
+    font-size: 24px;
+}
+
+.no-dec{
+    text-decoration-color: aqua;
+}
+
+.facebook-icon{
+    margin-right: 5px;
+}
+
+.social-text{
+    text-align: left;
+    color: #CCC;
+    margin-top: 40px;
+    text-decoration: none;
+}
+.social-text:hover{
+    text-align: left;
+    color: #FFF;
+    text-decoration: none;
+    margin-top: 40px;
+    
+}
+
+.text-field-box {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 40px;
+    height: 60px;
+    line-height: 60px;
+    text-align: left;
+    color: #666;
+    font-size: 14px;
+    padding: 0 35px;
+    margin-bottom: 30px;
+    width: 100%;
+    -webkit-box-shadow:inset 0px 0px 0px 10px #f00;
+    -moz-box-shadow:inset 0px 0px 0px 10px #f00;
+    box-shadow:inset 0px 0px 0px 2px #ccc;
+}
+
+
+.button-medium {
+    background: #003399;
+    border-radius: 40px;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    height: 48px;
+    line-height: 48px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    width: 200px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #d93123;
+    box-shadow: none;
+    outline: none;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+#contact-submit{
+    text-decoration: none;
+}
+
+.button-medium:hover {
+    background: #d93123;
+    border-radius: 40px;
+    color: #ccc;
+    cursor: pointer;
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    height: 48px;
+    line-height: 48px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    width: 200px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #d93123;
+    box-shadow: none;
+    outline: none;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    text-decoration: none !important;
+}
