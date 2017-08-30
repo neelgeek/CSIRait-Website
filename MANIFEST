@@ -1,0 +1,19 @@
+This zip file contains optimized resources for https://csi-rait.herokuapp.com/index.html. The optimized resources are listed below in the format of: 
+filename: url
+
+Note: We only include up to 10 MB of optimized contents. If the
+optimized contents of your page are larger than 10 MB, we list them in
+this file too, with 'NOT INCLUDED' to indicate those URLs require
+further optimization.
+
+css/style.css: https://csi-rait.herokuapp.com/css/style.css
+js/hoverIntent.js: https://csi-rait.herokuapp.com/lib/superfish/hoverIntent.js
+js/counterup.min.js: https://csi-rait.herokuapp.com/lib/counterup/counterup.min.js
+js/easing.js: https://csi-rait.herokuapp.com/lib/easing/easing.js
+js/sticky.js: https://csi-rait.herokuapp.com/lib/stickyjs/sticky.js
+js/parallax.js: https://csi-rait.herokuapp.com/lib/parallax/parallax.js
+js/lockfixed.min.js: https://csi-rait.herokuapp.com/lib/lockfixed/lockfixed.min.js
+js/custom.js: https://csi-rait.herokuapp.com/js/custom.js
+image/CSI-Logo_20copy.png: https://csi-rait.herokuapp.com/img/CSI-Logo%20copy.png
+image/technical.jpg: https://prince2pm.files.wordpress.com/2011/07/technical.jpg
+image/parallax-bg.jpg: https://csi-rait.herokuapp.com/img/parallax-bg.jpg
