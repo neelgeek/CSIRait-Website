@@ -844,16 +844,14 @@ a:hover {
     .card-block-4 {
         padding: 0px !important;
     }
-<<<<<<< HEAD
+
     .card-block{
         padding: 0px !important;
     }
     .card-block-3{
         padding: 0px !important;
     }
-=======
-    
->>>>>>> e72e7b57e4645dc19a2f65c7fd708058526ed7a6
+
     .padding30 {
         padding-left: 10px !important;
         padding-right: 10px !important;
@@ -868,7 +866,7 @@ a:hover {
     }
 }
 .card-block-4 {
-<<<<<<< HEAD
+
     padding: 40px;
 }
 .card-block-3{
@@ -878,10 +876,10 @@ a:hover {
 .card-block{
     padding:30px !important;
 }
-=======
+
     padding: 20px;
 }
->>>>>>> e72e7b57e4645dc19a2f65c7fd708058526ed7a6
+
 .team .card-title-wrap {
     padding: 15px 25px;
     position: relative;
