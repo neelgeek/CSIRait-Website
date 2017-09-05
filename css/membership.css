@@ -1,0 +1,26 @@
+body {
+    background-color: lightcyan;
+}
+
+.memform {
+    position: absolute;
+    left: 50%;
+    margin-left: -250px;
+    width: 500px;
+    top: 50%;
+    margin-top: -250px;
+    margin-bottom: 250px;
+}
+
+.memcontain {
+    color: steelblue;
+}
+
+.success {
+    text-align: center;
+    padding: 10px;
+    background: #79c879;
+    color: white;
+    margin-bottom: 10px;
+    display: none;
+}
