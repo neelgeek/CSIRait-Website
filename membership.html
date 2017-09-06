@@ -13,12 +13,16 @@
 </head>
 
 <body>
-    <div class=" container text-center hero">
+
+    <div class="container-fluid" id="form-box">
+    
+        <div class="  text-center hero">
         <h2>Membership Form</h2>
-    </div>
-    <div class="container memcontain">
+        </div>
+    <div class=" memcontain">
         <div class="success">Your form has been sent</div>
-        <form class="memform" id="memform">
+        <form >
+
             <div class="form-group">
                 <label for="name">Full Name: </label>
                 <input type="text" class="form-control" id="name" placeholder="First name  Middle name  Last name">
@@ -161,6 +165,11 @@
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
     </div>
+
+    
+    </div>
+    
+
 
     <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
     <script src="js/form.js"></script>
