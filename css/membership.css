@@ -2,14 +2,20 @@ body {
     background-color: lightcyan;
 }
 
+@media only screen and (min-width: 500px) {
+    .memform {
+        position: absolute;
+        left: 50%;
+        margin-left: -250px;
+        width: 500px;
+        top: 50%;
+        margin-top: -250px;
+        margin-bottom: 250px;
+    }
+}
+
 .memform {
-    position: absolute;
-    left: 50%;
-    margin-left: -250px;
-    width: 500px;
-    top: 50%;
-    margin-top: -250px;
-    margin-bottom: 250px;
+    padding: 20px 5px 20px 5px;
 }
 
 .memcontain {
@@ -23,4 +29,11 @@ body {
     color: white;
     margin-bottom: 10px;
     display: none;
+}
+
+.hero {
+    padding-top: 3em;
+    font-family: Raleway;
+    font-weight: 700;
+    color: crimson;
 }
