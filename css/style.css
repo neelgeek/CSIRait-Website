@@ -29,7 +29,7 @@ p {
 }
 
 .margin-top {
-    margin-top: 40px;
+    margin-top: 0px;
 }
 
 #footer {
@@ -63,13 +63,36 @@ a.btn-banner {
     display: inline-block;
     margin-top: 55px;
 }
+.img-height{
+    height: 100%;
+}
+
+.img-caro{
+    content: url("http://via.placeholder.com/1200x600");
+}
+
+@media (max-width: 768px) {
+    .img-caro{
+    content: url("http://via.placeholder.com/1200x1000");
+    }
+}
+
 
 #carousel-holder {
     padding: 0 !important;
 }
 
-.container-carousel {
-    padding: 0;
+
+
+@media (max-width: 768px) {
+ .container-carousel {
+    height: 320px;
+     padding: 0;
+    }
+}
+
+.container-carousel{
+    padding:0px !important;
 }
 
 .carousel-inner>.item>img {
@@ -92,6 +115,16 @@ a.btn-banner {
 .carousel-control.left,
 .carousel-control.right {
     background-image: none;
+}
+
+.playlist{
+    height: 405px;
+}
+
+@media (max-width: 768px) {
+    .playlist{
+        height: 200px;
+    }
 }
 
 a.btn-banner i {
@@ -162,7 +195,7 @@ a.btn-banner:focus {
 }
 
 #banner {
-    background: url('https://prince2pm.files.wordpress.com/2011/07/technical.jpg') no-repeat;
+    background: url('../img/background.jpg') no-repeat;
     background-size: cover;
     min-height: 700px;
     padding-top: 95px;
@@ -596,6 +629,10 @@ a.btn-banner:focus {
     display: none;
 }
 
+
+.workshopimg{
+    height: 390px;
+}
 /* Mobile Nav body classes */
 body.mobile-nav-active {
     overflow: hidden;
@@ -608,10 +645,24 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .block {
     color: #fff;
-    height: 490px;
+    height: 700px;
     overflow: hidden;
     padding-top: 85px;
 }
+
+@media only screen and (max-width: 768px){
+  .block {
+    color: #fff;
+    height: 490px;
+    overflow: hidden;
+    padding-top: 85px;
+    }
+    .workshopimg{
+    height: 190px;
+    }
+    
+}
+
 .block h2 {
     text-transform: uppercase;
     margin-bottom: 15px;
@@ -635,6 +686,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 .btn:focus {
     color: #fff;
 }
+
+#workshop-img{
+    max-height: 100px;
+    height: 100px;   
+}
 .btn-ghost {
     border: 3px solid #fff;
     background-color: transparent;
@@ -652,9 +708,22 @@ section {
     border: 0;
     border-radius: 0;
     margin: 0;
-    margin-top: 30px;
+    margin-top: -60px;
     overflow: hidden;
 }
+
+@media only screen and (max-width: 768px){
+    .card {
+    position: relative;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    margin: 0;
+    margin-top: 20px;
+    overflow: hidden;
+    }
+}
+
 a:hover {
     text-decoration: none !important;
 }
@@ -815,6 +884,7 @@ a:hover {
 .team .card:hover .card-title-wrap .card-text {
     color: #fff;
 }
+
 .fixedElement {
     background-color: #c0c0c0;
     position: fixed;
@@ -840,20 +910,29 @@ a:hover {
 }
 @media only screen and (max-width: 768px) {
     .card-block-4 {
-        padding: 0px !important;
+        padding: 10px !important;
     }
     
     .card-block {
         padding: 0px !important;
     }
     
+<<<<<<< HEAD
     .card-block-3 {
+        padding: 40px !important;
+=======
+    .card-block {
         padding: 0px !important;
     }
     
+    .card-block-3 {
+        padding: 0px !important;
+>>>>>>> 308b37aea357de8c820ed1da4ff79b1417c52a93
+    }
+    
     .padding30 {
-        padding-left: 10px !important;
-        padding-right: 10px !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
     }
     
     .mobile-tog {
@@ -868,7 +947,11 @@ a:hover {
     padding: 40px;
 }
 .card-block-3 {
+<<<<<<< HEAD
+    padding: 65px;
+=======
     padding: 60px;
+>>>>>>> 308b37aea357de8c820ed1da4ff79b1417c52a93
 }
 .card-block {
     padding: 30px !important;
@@ -893,6 +976,8 @@ a:hover {
     font-size: 18px;
     color: #999;
 }
+
+
 #about p {
     color: #fff;
 }

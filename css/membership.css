@@ -1,4 +1,35 @@
 body {
+<<<<<<< HEAD
+    background-color: #eee;
+}
+
+#form-box{
+    background-color: #fff;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top: 80px;
+    padding: 50px;
+    box-shadow: 10px 10px 50px #888888;
+    margin-bottom: 80px;
+}
+
+@media (max-width: 768px) {
+   #form-box{
+    background-color: #fff;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 80px;
+    padding: 50px;
+    box-shadow: 10px 10px 50px #888888;
+    margin-bottom: 80px;
+    }    
+    
+}
+
+.memcontain {
+    margin-bottom: 30px;
+    color: #199EB8;
+=======
     background-color: lightcyan;
 }
 
@@ -20,6 +51,7 @@ body {
 
 .memcontain {
     color: steelblue;
+>>>>>>> 308b37aea357de8c820ed1da4ff79b1417c52a93
 }
 
 .success {
