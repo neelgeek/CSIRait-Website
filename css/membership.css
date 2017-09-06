@@ -1,5 +1,5 @@
 body {
-<<<<<<< HEAD
+
     background-color: #eee;
 }
 
@@ -29,29 +29,6 @@ body {
 .memcontain {
     margin-bottom: 30px;
     color: #199EB8;
-=======
-    background-color: lightcyan;
-}
-
-@media only screen and (min-width: 500px) {
-    .memform {
-        position: absolute;
-        left: 50%;
-        margin-left: -250px;
-        width: 500px;
-        top: 50%;
-        margin-top: -250px;
-        margin-bottom: 250px;
-    }
-}
-
-.memform {
-    padding: 20px 5px 20px 5px;
-}
-
-.memcontain {
-    color: steelblue;
->>>>>>> 308b37aea357de8c820ed1da4ff79b1417c52a93
 }
 
 .success {

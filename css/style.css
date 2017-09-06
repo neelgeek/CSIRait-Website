@@ -917,17 +917,10 @@ a:hover {
         padding: 0px !important;
     }
     
-<<<<<<< HEAD
+
     .card-block-3 {
         padding: 40px !important;
-=======
-    .card-block {
-        padding: 0px !important;
-    }
-    
-    .card-block-3 {
-        padding: 0px !important;
->>>>>>> 308b37aea357de8c820ed1da4ff79b1417c52a93
+
     }
     
     .padding30 {
@@ -947,11 +940,9 @@ a:hover {
     padding: 40px;
 }
 .card-block-3 {
-<<<<<<< HEAD
+
     padding: 65px;
-=======
-    padding: 60px;
->>>>>>> 308b37aea357de8c820ed1da4ff79b1417c52a93
+
 }
 .card-block {
     padding: 30px !important;
