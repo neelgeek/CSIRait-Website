@@ -979,14 +979,19 @@ a:hover {
         box-shadow: 10px 10px 50px #888888;
         background: #fff;
     }
+    
+    .row {
+        display: flex;
+        justify-content: space-around;
+    }
 }
 .test-box {
+    margin-bottom: 20px;
     box-shadow: 10px 10px 50px #888888;
     background: #fff;
 }
 .row {
-    display: flex;
-    justify-content: space-around;
+    margin: 20px 10px;
 }
 .test-box h4 {
     color: lightskyblue;
