@@ -63,36 +63,40 @@ a.btn-banner {
     display: inline-block;
     margin-top: 55px;
 }
-.img-height{
+
+.img-height {
     height: 100%;
 }
 
-.img-caro{
+.img-caro {
     content: url("http://via.placeholder.com/1200x600");
 }
 
 @media (max-width: 768px) {
-    .img-caro{
-    content: url("http://via.placeholder.com/1200x1000");
+    .img-caro {
+        content: url("http://via.placeholder.com/1200x1000");
     }
 }
 
+@media (max-width: 1000px) {
+    .test{
+        font-size: 10px !important;
+    }
+}
 
 #carousel-holder {
     padding: 0 !important;
 }
 
-
-
 @media (max-width: 768px) {
- .container-carousel {
-    height: 320px;
-     padding: 0;
+    .container-carousel {
+        height: 320px;
+        padding: 0;
     }
 }
 
-.container-carousel{
-    padding:0px !important;
+.container-carousel {
+    padding: 0px !important;
 }
 
 .carousel-inner>.item>img {
@@ -117,12 +121,12 @@ a.btn-banner {
     background-image: none;
 }
 
-.playlist{
+.playlist {
     height: 405px;
 }
 
 @media (max-width: 768px) {
-    .playlist{
+    .playlist {
         height: 200px;
     }
 }
@@ -449,6 +453,7 @@ a.btn-banner:focus {
     position: relative;
     white-space: nowrap;
 }
+
 .nav-menu>li {
     float: left;
 }
@@ -628,11 +633,10 @@ a.btn-banner:focus {
     background: rgba(0, 0, 0, 0.6);
     display: none;
 }
-
-
-.workshopimg{
+.workshopimg {
     height: 390px;
 }
+
 /* Mobile Nav body classes */
 body.mobile-nav-active {
     overflow: hidden;
@@ -649,20 +653,18 @@ body.mobile-nav-active #mobile-nav-toggle {
     overflow: hidden;
     padding-top: 85px;
 }
-
-@media only screen and (max-width: 768px){
-  .block {
-    color: #fff;
-    height: 490px;
-    overflow: hidden;
-    padding-top: 85px;
-    }
-    .workshopimg{
-    height: 190px;
+@media only screen and (max-width: 768px) {
+    .block {
+        color: #fff;
+        height: 490px;
+        overflow: hidden;
+        padding-top: 85px;
     }
     
+    .workshopimg {
+        height: 190px;
+    }
 }
-
 .block h2 {
     text-transform: uppercase;
     margin-bottom: 15px;
@@ -686,10 +688,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 .btn:focus {
     color: #fff;
 }
-
-#workshop-img{
+#workshop-img {
     max-height: 100px;
-    height: 100px;   
+    height: 100px;
 }
 .btn-ghost {
     border: 3px solid #fff;
@@ -711,19 +712,17 @@ section {
     margin-top: -60px;
     overflow: hidden;
 }
-
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
     .card {
-    position: relative;
-    padding: 0;
-    border: 0;
-    border-radius: 0;
-    margin: 0;
-    margin-top: 20px;
-    overflow: hidden;
+        position: relative;
+        padding: 0;
+        border: 0;
+        border-radius: 0;
+        margin: 0;
+        margin-top: 20px;
+        overflow: hidden;
     }
 }
-
 a:hover {
     text-decoration: none !important;
 }
@@ -794,7 +793,7 @@ a:hover {
 .teams-text {
     font-family: "Raleway", Helvetica, Arial, sans-serif;
     font-weight: 300;
-    color: #fff;
+    color: #000;
     padding-bottom: 20px;
     text-align: left;
 }
@@ -884,7 +883,6 @@ a:hover {
 .team .card:hover .card-title-wrap .card-text {
     color: #fff;
 }
-
 .fixedElement {
     background-color: #c0c0c0;
     position: fixed;
@@ -917,10 +915,8 @@ a:hover {
         padding: 0px !important;
     }
     
-
     .card-block-3 {
         padding: 40px !important;
-
     }
     
     .padding30 {
@@ -940,9 +936,7 @@ a:hover {
     padding: 40px;
 }
 .card-block-3 {
-
     padding: 65px;
-
 }
 .card-block {
     padding: 30px !important;
@@ -969,11 +963,20 @@ a:hover {
 }
 
 
+
+
 #about p {
-    color: #fff;
+    color: #333;
+}
+
+#about{
+    background-image: url("../img/background-about.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
 }
 #about .circle {
-    color: #fff;
+    color: #333;
 }
 .resources {
     background-size: cover;
@@ -984,3 +987,45 @@ a:hover {
 .rait {
     color: #199EB8;
 }
+#logo{
+    visibility: hidden;
+}
+@media (min-width: 768px) {
+    .test-box {
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-top: 10px;
+        margin-top: 10px;
+        padding: 50px;
+        box-shadow: 10px 10px 50px #888888;
+        background: #fff;
+    }
+    
+    #logo{
+        visibility: visible;
+    }
+    
+    .row {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+.test-box {
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 50px #888888;
+    background: #fff;
+}
+.row {
+    margin: 20px 10px;
+}
+.test-box h4 {
+    color: lightskyblue;
+}
+.testimonials {
+    background: url("../image/test-bg.jpg");
+}
+.jumbotron {
+    color: #fff;
+}
+
+
