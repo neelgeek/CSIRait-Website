@@ -258,9 +258,7 @@
 
         <span id="team"></span>
 
-        <div style="background: #8e9eab;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */" id="teams " class="container-fluid ">
+        <div id="teams " class="container-fluid ">
             <div class="container text-center ">
                 <br>
                 <h1 id="teams-header">Teams</h1>
@@ -368,6 +366,7 @@
         </section>
 
         <!-- CTA END -->
+
 
         <!-- COUNCIL -->
 
@@ -619,7 +618,10 @@
                     </div>
                     <div class="col-sm-12 ">
                         <h4><span class="glyphicon glyphicon-cloud con-glyp "></span> Social Media</h4>
-                        <p><a href="# " class="social-text ">Facebook</a> </p>
+                        <p><a href="https://www.facebook.com/csirait.official/" target="_blank" class="social-text ">Facebook</a> </p>
+                        <p><a href="https://www.facebook.com/CsiRaitDecrypt/" target="_blank" class="social-text ">Decrypt</a> </p>
+                        <p><a href="https://www.instagram.com/decrypt.csirait/" target="_blank" class="social-text ">Instagram</a> </p>
+
 
                     </div>
                 </div>
@@ -633,8 +635,11 @@
 
 
                     <div class="form-sec ">
+                        <div style="display: none" class="success">
+                            <p><em>Thanks</em> for submitting a response. We will contact you soon.</p>
+                        </div>
                         <br>
-                        <form action=" " method="post " role="form " class="contactForm ">
+                        <form action="http://formspree.io/puthranyash1@gmail.com" method="POST" role="form " class="contactForm " id="gform">
                             <div class="col-sm-4 form-group ">
                                 <input type="text " name="name " class="form-control text-field-box " id="name " placeholder="Your Name " data-rule="minlen:4 " data-msg="Please enter at least 4 chars " />
                                 <div class="validation "></div>
@@ -658,7 +663,11 @@
                 </div>
             </div>
             <div class="container-fluid " id="footer ">
-                <p class="pull-right ">Footer Content</p>
+                <p class="text-center">&copy;
+                    <script>
+                        new Date().getFullYear() > 2010 && document.write("CSI-Rait " + new Date().getFullYear());
+                    </script>
+                </p>
             </div>
         </div>
 
