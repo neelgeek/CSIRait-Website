@@ -13,6 +13,41 @@ var database = firebase.database().ref('memberData');
 
 document.getElementById('memform').addEventListener('submit', submitForm);
 
+database.on('value', gotData, err);
+
+function gotData(data){
+    var full = data.val();
+    var keys = Object.keys(full);
+    console.log(keys);
+    keys.forEach(function(value, index){
+        var j = keys[index];
+        var retrieveName = full[j].name;
+        var retrieveMail = full[j].email;
+        var retrieveAdd = full[j].address;
+        var retrieveContact = full[j].contact;
+        var retrieveDiv = full[j].div;
+        var retrieveBranch = full[j].branch;
+        var retrieveDob = full[j].dob;
+        var retrieveGender = full[j].gender;
+        var retrieveMemstat = full[j].memstat;
+        var retrieveTeams = full[j].teams;
+        var retrieveYear = full[j].years;
+        var userData = [retrieveName, retrieveMail, retrieveAdd, retrieveContact,
+                        retrieveDiv, retrieveBranch, retrieveDob, retrieveGender,
+                        retrieveMemstat, retrieveTeams, retrieveYear]
+        console.log(userData);
+    });
+
+    
+};
+
+function err(err){
+    console.log("Error: ");
+    console.log(err);
+};
+
+
+
 //submit the form
 function submitForm(e) {
     e.preventDefault();
