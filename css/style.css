@@ -795,7 +795,7 @@ a:hover {
 .teams-text {
     font-family: "Raleway", Helvetica, Arial, sans-serif;
     font-weight: 300;
-    color: #fff;
+    color: #333;
     padding-bottom: 20px;
     text-align: left;
 }
@@ -971,10 +971,10 @@ a:hover {
 
 
 #about p {
-    color: #fff;
+    color: #333;
 }
 #about .circle {
-    color: #fff;
+    color: #333;
 }
 .resources {
     background-size: cover;
