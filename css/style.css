@@ -1064,7 +1064,7 @@ a:hover {
     -ms-transform: translate(-50%, -50%);
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .work-text {
         color: white;
         font-size: 10px;
