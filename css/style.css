@@ -283,8 +283,8 @@ a.btn-banner:focus {
     text-align: right;
 }
 
-.con-glyp font-size: 24px;
-
+.con-glyp {
+    font-size: 24px;
 }
 .no-dec {
     text-decoration-color: aqua;
@@ -414,7 +414,8 @@ a.btn-banner:focus {
     }
     
     #header #logo h1 {
-        padding: 2px 0 font-size: 26px;
+        padding: 2px 0;
+        font-size: 26px;
     }
     
     #header #logo img {
@@ -1031,6 +1032,15 @@ a:hover {
 
 .work-img{
     position: relative;
+    height: 440px;
+    width: 700px;
+}
+
+@media only screen and (max-width: 768px){
+    .work-img{
+        width: 300px;
+        height: 190px;
+    }
 }
 
 .work-contain {
