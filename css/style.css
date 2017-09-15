@@ -25,7 +25,7 @@ p {
 }
 
 .boot-correction {
-    margin-left: 6%;
+    margin-left: 0%;
 }
 
 .margin-top {
@@ -214,6 +214,8 @@ a.btn-banner:focus {
     width: 300px;
     margin-top: 30px;
 }
+
+
 
 .img-center {
     display: block;
@@ -421,6 +423,7 @@ a.btn-banner:focus {
     #header #logo img {
         max-height: 30px;
     }
+    .
 }
 #header .social-nav {
     margin-top: 15px;
@@ -661,7 +664,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     .workshopimg{
     height: 190px;
     }
-    
+    .csi-logo
+    {
+        height: auto;
+        width: auto;
+    }
 }
 
 .block h2 {
